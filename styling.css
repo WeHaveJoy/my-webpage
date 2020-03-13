@@ -31,8 +31,13 @@ td, th {
   text-align: left;
   padding: 8px;
 }
-
-
+.hitorical-places{
+  display: flex;
+  width: auto;
+}
+.hitorical-places ul, img {
+  display: flex;
+}
  
 
   
