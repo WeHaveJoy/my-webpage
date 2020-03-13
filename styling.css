@@ -4,40 +4,59 @@ body{
       margin: 0px;
       padding: 0px;
       background-color: thistle;
+      font-family: arial, sans-serif;
     }
-  .container .mountain{
-    position: relative;
-    float: right;
-    bottom: 150px;
-    width: 18%;
-    height: 10%;
+  
+  .header{
+    display: flex;
+    justify-content: space-around;
   }
 
-  .header .h1{
-    text-align: center;
+   .names{
+     margin-top: 6em;
+   } 
+
+   .Greece{
+      margin: 5em;
+   }
+
+
+   .city img{
+     float: left;
+     margin-right: 1em;
+   }
+   
+   
+  .foreign-lang{
+    clear: both;
+    margin: 3em;
   }
-    
+  .foreign-lang h2{
+    margin-top: 5em;
+  }
     table {
-      position: relative;
-      bottom: 10px;
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 70%;
+      border: 1px solid black;
+     width: 70%;
+     border-collapse: collapse; 
 }
 
 
-td, th {
+table tr, td, th {
   border: 1px solid #000;
   text-align: left;
   padding: 8px;
 }
-.hitorical-places{
+.historical-places{
   display: flex;
-  width: auto;
+  font-size: small;
+  margin: 3em;
 }
-.hitorical-places ul, img {
-  display: flex;
+.historical-places ul, li, h3{
+    margin: 4px;
 }
+ .HP{
+   margin: 3em;
+ }
  
 
   
