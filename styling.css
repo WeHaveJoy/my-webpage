@@ -5,6 +5,7 @@ body{
       padding: 0px;
       background-color: thistle;
       font-family: arial, sans-serif;
+      overflow-x: hidden;
     }
   
   .header{
@@ -58,6 +59,25 @@ table tr, td, th {
    margin: 3em;
  }
  
+ a{
+   background-color: chartreuse;
+   color: greenyellow;
+ }
 
-  
-   
+ @media only screen and (max-width: 600px) {
+   * {
+     margin: 0;
+     padding: 0;
+   }
+   .header {
+     display: inline-block;
+     width: 100%;
+   }
+   .header .names {
+     float: right;
+   }
+   .header img {
+     width: 100px;
+     
+   }
+  }
