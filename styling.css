@@ -61,8 +61,9 @@ table tr, td, th {
  }
  
  a{
-   background-color: chartreuse;
-  color: blanchedalmond;
+   background-color: cadetblue;
+  color: lime;
+  font-size: xx-large;
  }
 footer{
  background-color: darkslategray;
