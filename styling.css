@@ -61,7 +61,7 @@ table tr, td, th {
  
  a{
    background-color: chartreuse;
-   color: greenyellow;
+  color: blanchedalmond;
  }
 
  @media only screen and (max-width: 600px) {
