@@ -14,11 +14,12 @@ body{
   }
 
    .names{
-     margin-top: 6em;
+     margin-top: 4em;
    } 
 
    .Greece{
-      margin: 5em;
+      margin: 1em;
+      overflow: hidden;
    }
 
 
@@ -30,10 +31,10 @@ body{
    
   .foreign-lang{
     clear: both;
-    margin: 3em;
+    margin: 1em;
   }
   .foreign-lang h2{
-    margin-top: 5em;
+    margin-top: 2em;
   }
     table {
       border: 1px solid black;
@@ -50,34 +51,60 @@ table tr, td, th {
 .historical-places{
   display: flex;
   font-size: small;
-  margin: 3em;
+  margin: 1em;
 }
 .historical-places ul, li, h3{
-    margin: 4px;
+    margin: 2px;
 }
  .HP{
-   margin: 3em;
+   margin: 1em;
  }
  
  a{
    background-color: chartreuse;
   color: blanchedalmond;
  }
-
+footer{
+ background-color: darkslategray;
+ padding: 10px;
+}
  @media only screen and (max-width: 600px) {
    * {
      margin: 0;
      padding: 0;
+     overflow-x: hidden;
    }
    .header {
      display: inline-block;
      width: 100%;
    }
+   .ul{
+    width: 100%;
+    overflow: hidden;
+  }
    .header .names {
      float: right;
+     margin: 2em;
    }
    .header img {
      width: 100px;
+     margin: 2em;
      
+   }
+   .Greece img{
+      width: 50%;
+      float: none;
+   }
+   .Greece{
+    font-size: 20px;
+   }
+   .historical-places{
+      display: inline-block;
+      margin-top: 1em;
+     font-size: 20px;
+   }
+   table{
+     width: 90%;
+     font-size: 20px;
    }
   }
