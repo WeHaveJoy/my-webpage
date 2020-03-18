@@ -62,10 +62,22 @@ table tr, td, th {
  }
  
  a{
-   background-color: cadetblue;
-  color: lime;
-  font-size: xx-large;
- }
+  background-color: cadetblue;
+ font-size: xx-large;
+}
+a .page{
+    color: darkorange;
+}
+a .grid{
+    color: deeppink;
+}
+    a .simple{
+      color: lightseagreen;
+    }
+    a .web{
+      color: lightskyblue;
+    }
+
 footer{
  background-color: darkslategray;
  padding: 10px;
