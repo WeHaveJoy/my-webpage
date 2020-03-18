@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="simple-grid.css" rel="stylesheet">
+    <link href="simple-grid.scss" rel="stylesheet">
     <title>Document</title>
 
-    <link href="styling.css" rel="stylesheet">
 </head>
+<style>
+.container{
+    color: black;
+    background-color: burlywood;
+    border: cadetblue;
+}
 
+table {
+      border: 1px solid black;
+     width: 70%;
+     border-collapse: collapse; 
+}
+
+
+table tr, td, th {
+  border: 1px solid #000;
+  text-align: left;
+  padding: 8px;
+}
+</style>
 <body>
-
     <div class="container">
-
-        <div class="header">
-            <div class="names">
-                <h1>SINOVUYO</h1>
-            <h1>DYANTYI</h1>
+    <div class="row">
+        <div class="col-5">
+            <h1>SINOVUYO <br> DYANTYI</h1>
         </div>
-        <img class="mountain" src="./images/mountain.jpg">
+        <div class="col-7">
+            <img class="mountain" src="./images/mountain.jpg">
         </div>
-
-        <div class="Greece ">
-           <div class="city"> <h2>Which city</h2>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <h2>Which city</h2>
             <img src="./images/greece.jpg" alt="Greece">
         </div>
-            <div class="about-greece"> 
-                <h3>Greece</h3>
+        <div class="col-8">
+            <h3>Greece</h3>
             <p>I chose Greese because, its the city that I want to visit one day. Greese is the most beautiful city, I
                 like the way the houses are built and it seems as if its a peaceful environment.</p>
-            </div>
         </div>
-
-        <div class="foreign-lang">
+    </div>
+    <div class="row">
+        <div class="col-12">
             <h2>A Foreign Language</h2>
             <table>
                 <tr>
@@ -56,23 +74,24 @@
                 </tr>
                 </table>
         </div>
+    </div>
+    <div class="row">
         
-
-        <h2 class="HP">Historical places around Cape Town</h2> 
-        <div class="historical-places">  
-        <div class="castle-of-good-hope"> 
+            <h2>Historical places around Cape Town</h2>
+        
+        <div class="col-4">
             <h3>Caste of Good Hope</h3>
+            <img src="./images/castle.jpg">
             <ul>
                 <li>It took 13 years to build the Castle of good hope.</li>
                 <li>You can see the jail cells as they were centuries ago.</li>
                 <li>The building housed multiple services and businesses.</li>
-            </ul>
+                
         </div>
-        <img src="./images/castle.jpg">
+        <div class="col-4">
 
-            
-            <div class="district6">
-                <h3>District six museum</h3>
+            <h3>District six museum</h3>
+            <img src="./images/district6.jpg">
 
             <lu>
                 <li>The area known as District Six got its name from having been the Sixth Municipal District
@@ -88,28 +107,29 @@
                     economic class, geographical area of origin – and became a living example
                     of how diversity could a be a strengthening characteristic of a community
                     and need not be feared.</li>
-            </lu>
-            </div>
-            <img src="./images/district6.jpg">
+        </div>
 
-            
-            <div class="city-hall">
-                <h3>City Hall</h3>
-            <lu>
-                <li>Cape Town's City Hall took five years to complete, after the laying of its cornerstone in 1900.</li>
-                <li>Nelson Mandela gave a speech from the balcony of City Hall immediately upon his release from prison.
-                </li>
-                <li>City Hall lies between Buitengracht and Darling Streets, its forecourt,
-                    known as Grand Parade, the scene of many military and political gatherings
-                    whilst its balcony became notably famous when Nelson Mandela addressed 100 000 jubilant
-                    people just hours after his release from prison, on 11 February 1990 (he was to borrow Winnie's
-          (his then wife, Winne Mandela) glasses to read, having left his in prison).</li>
-            </lu>
-            </div>
+        <div class="col-4">
+            <h3>City Hall</h3>
             <img src="./images/cityhall.jpg">
+    
+            <lu>
+                    <li>Cape Town's City Hall took five years to complete, after the laying of its cornerstone in 1900.</li>
+                    <li>Nelson Mandela gave a speech from the balcony of City Hall immediately upon his release from prison.
+                    </li>
+                    <li>City Hall lies between Buitengracht and Darling Streets, its forecourt,
+                        known as Grand Parade, the scene of many military and political gatherings
+                        whilst its balcony became notably famous when Nelson Mandela addressed 100 000 jubilant
+                        people just hours after his release from prison, on 11 February 1990 (he was to borrow Winnie's
+              (his then wife, Winne Mandela) glasses to read, having left his in prison).</li>
+                </lu>
         </div>
     </div>
-    <footer>&copy; Sinovuyo Dyantyi</footer>
+    <div class="row">
+        <div class="col-12">
+            <footer>&copy; Sinovuyo Dyantyi</footer>
+        </div>
+    </div>
+    </div>
 </body>
-
 </html>
