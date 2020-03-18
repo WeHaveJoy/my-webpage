@@ -6,6 +6,7 @@ body{
       background-color: thistle;
       font-family: arial, sans-serif;
       overflow-x: hidden;
+      border:2em solid lawngreen;
     }
   
   .header{
@@ -74,6 +75,7 @@ footer{
      margin: 0;
      padding: 0;
      overflow-x: hidden;
+     border: 2em solid lawngreen;
    }
    .header {
      display: inline-block;
